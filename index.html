@@ -2,7 +2,9 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ndirecto‑Pngtuber</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <style>
     body {
         margin: 0;
@@ -13,7 +15,9 @@
         color: #ffffff;
     }
     .container {
-        margin-top: 40px;
+        margin: 40px auto;
+        max-width: 400px;
+        padding: 0 20px;
     }
     .title {
         font-size: 32px;
@@ -22,7 +26,7 @@
         margin-bottom: 20px;
     }
     .pngtuber {
-        width: 200px;
+        width: 150px;
         height: auto;
         border-radius: 50%;
         border: 3px solid #ff6600;
@@ -33,24 +37,43 @@
         transform: scale(1.05);
     }
     .btn {
-        display: block;
-        width: 300px;
-        margin: 12px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 10px 0;
         padding: 14px;
         background: #ff6600;
         color: #000000;
         text-decoration: none;
-        font-size: 20px;
+        font-size: 18px;
         border-radius: 8px;
         transition: 0.2s;
     }
     .btn:hover {
         background: #e65c00;
     }
+    .btn i {
+        margin-right: 10px;
+        font-size: 20px;
+    }
     .footer {
-        margin-top: 60px;
+        margin-top: 40px;
         font-size: 14px;
         color: #777777;
+    }
+
+    @media (max-width: 500px) {
+        .title {
+            font-size: 26px;
+        }
+        .btn {
+            font-size: 16px;
+            padding: 12px;
+        }
+        .pngtuber {
+            width: 120px;
+        }
     }
 </style>
 </head>
@@ -62,29 +85,29 @@
 
     <div class="title">Ndirecto‑Pngtuber</div>
 
-    <!-- Links -->
+    <!-- Links con iconos -->
     <a class="btn" href="https://www.youtube.com/@Ndirecto22" target="_blank">
-        Canal de YouTube
+        <i class="fab fa-youtube"></i> Canal de YouTube
     </a>
 
     <a class="btn" href="https://instagram.com/ndirecto22" target="_blank">
-        Sígueme en Instagram
+        <i class="fab fa-instagram"></i> Sígueme en Instagram
     </a>
 
     <a class="btn" href="https://x.com/Ndirecto18" target="_blank">
-        Sígueme en X
+        <i class="fab fa-x-twitter"></i> Sígueme en X
     </a>
 
     <a class="btn" href="https://streamelements.com/ndirecto22-751c6/tip" target="_blank">
-        Donaciones / Apoyo
+        <i class="fas fa-hand-holding-dollar"></i> Donaciones / Apoyo
     </a>
 
     <a class="btn" href="https://www.streamloots.com/ndirecto22/referral?referralCode=ndirecto22" target="_blank">
-        Streamloots (interacciones)
+        <i class="fas fa-gamepad"></i> Streamloots (interacciones)
     </a>
 
     <a class="btn" href="https://www.streamloots.com/ndirecto22" target="_blank">
-        Mi perfil de Streamloot
+        <i class="fas fa-user"></i> Perfil Streamloots
     </a>
 
 </div>
