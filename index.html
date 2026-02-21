@@ -3,117 +3,138 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ndirecto‑Pngtuber</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<style>
-    body {
-        margin: 0;
-        padding: 0;
-        background: #000000;
-        font-family: Arial, sans-serif;
-        text-align: center;
-        color: #ffffff;
-    }
-    .container {
-        margin: 40px auto;
-        max-width: 400px;
-        padding: 0 20px;
-    }
-    .title {
-        font-size: 32px;
-        font-weight: bold;
-        color: #ff6600;
-        margin-bottom: 20px;
-    }
-    .pngtuber {
-        width: 150px;
-        height: auto;
-        border-radius: 50%;
-        border: 3px solid #ff6600;
-        margin-bottom: 30px;
-        transition: transform 0.3s;
-    }
-    .pngtuber:hover {
-        transform: scale(1.05);
-    }
-    .btn {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        margin: 10px 0;
-        padding: 14px;
-        background: #ff6600;
-        color: #000000;
-        text-decoration: none;
-        font-size: 18px;
-        border-radius: 8px;
-        transition: 0.2s;
-    }
-    .btn:hover {
-        background: #e65c00;
-    }
-    .btn i {
-        margin-right: 10px;
-        font-size: 20px;
-    }
-    .footer {
-        margin-top: 40px;
-        font-size: 14px;
-        color: #777777;
-    }
+<title>Ndirecto22</title>
 
-    @media (max-width: 500px) {
-        .title {
-            font-size: 26px;
-        }
-        .btn {
-            font-size: 16px;
-            padding: 12px;
-        }
-        .pngtuber {
-            width: 120px;
-        }
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #000000, #111111);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    max-width: 420px;
+    padding: 40px 25px;
+    text-align: center;
+    background: #0d0d0d;
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(255,102,0,0.15);
+}
+
+/* Glow animado elegante */
+@keyframes softGlow {
+    0% { box-shadow: 0 0 20px rgba(255,102,0,0.25); }
+    50% { box-shadow: 0 0 35px rgba(255,102,0,0.45); }
+    100% { box-shadow: 0 0 20px rgba(255,102,0,0.25); }
+}
+
+/* PNG profesional */
+.pngtuber {
+    width: clamp(130px, 28vw, 190px);
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #ff6600;
+    margin-bottom: 25px;
+    animation: softGlow 3s infinite ease-in-out;
+}
+
+/* Título */
+.title {
+    font-size: clamp(24px, 5vw, 34px);
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #ff6600;
+}
+
+/* Botones */
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 14px;
+    margin: 10px 0;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: clamp(14px, 3.5vw, 18px);
+    font-weight: 500;
+    background: #ff6600;
+    color: #000;
+    transition: all 0.25s ease;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(255,102,0,0.45);
+    background: #e65c00;
+}
+
+/* Footer */
+.footer {
+    margin-top: 30px;
+    font-size: 13px;
+    color: #888;
+    line-height: 1.6;
+}
+
+/* Ajuste para pantallas grandes */
+@media (min-width: 900px) {
+    body {
+        padding: 20px;
     }
+}
 </style>
 </head>
+
 <body>
+
 <div class="container">
 
-    <!-- PNGtuber -->
-    <img src="pngtuber.png" alt="Ndirecto‑Pngtuber" class="pngtuber">
+<img src="pngtuber.png" alt="Ndirecto22" class="pngtuber">
 
-    <div class="title">Ndirecto‑Pngtuber</div>
+<div class="title">Ndirecto22</div>
 
-    <!-- Links con iconos -->
-    <a class="btn" href="https://www.youtube.com/@Ndirecto22" target="_blank">
-        <i class="fab fa-youtube"></i> Canal de YouTube
-    </a>
+<a class="btn" href="https://www.youtube.com/@Ndirecto22" target="_blank">
+<i class="fab fa-youtube"></i> Canal de YouTube
+</a>
 
-    <a class="btn" href="https://instagram.com/ndirecto22" target="_blank">
-        <i class="fab fa-instagram"></i> Sígueme en Instagram
-    </a>
+<a class="btn" href="https://instagram.com/ndirecto22" target="_blank">
+<i class="fab fa-instagram"></i> Instagram
+</a>
 
-    <a class="btn" href="https://x.com/Ndirecto18" target="_blank">
-        <i class="fab fa-x-twitter"></i> Sígueme en X
-    </a>
+<a class="btn" href="https://x.com/Ndirecto18" target="_blank">
+<i class="fab fa-x-twitter"></i> X
+</a>
 
-    <a class="btn" href="https://streamelements.com/ndirecto22-751c6/tip" target="_blank">
-        <i class="fas fa-hand-holding-dollar"></i> Donaciones / Apoyo
-    </a>
+<a class="btn" href="https://streamelements.com/ndirecto22-751c6/tip" target="_blank">
+<i class="fas fa-hand-holding-dollar"></i> Donaciones
+</a>
 
-    <a class="btn" href="https://www.streamloots.com/ndirecto22/referral?referralCode=ndirecto22" target="_blank">
-        <i class="fas fa-gamepad"></i> Streamloots (interacciones)
-    </a>
-
-    <a class="btn" href="https://www.streamloots.com/ndirecto22" target="_blank">
-        <i class="fas fa-user"></i> Perfil Streamloots
-    </a>
-
-</div>
+<a class="btn" href="https://www.streamloots.com/ndirecto22" target="_blank">
+<i class="fas fa-user"></i> Perfil Streamloots
+</a>
 
 <div class="footer">
-    Hecho para tu comunidad
+© Ndirecto22<br>
+Ndirecto22 • 2026
 </div>
+
+</div>
+
 </body>
 </html>
